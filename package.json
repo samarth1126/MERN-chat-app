@@ -1,0 +1,23 @@
+{
+  "name": "bolo-app",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Samarth",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon back-end/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "colors": "^1.4.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.7.0",
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.3"
+  }
+}
