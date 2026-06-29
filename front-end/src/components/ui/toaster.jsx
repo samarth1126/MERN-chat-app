@@ -19,7 +19,16 @@ export const Toaster = () => {
     <Portal>
       <ChakraToaster toaster={toaster} insetInline={{ mdDown: '4' }}>
         {(toast) => (
-          <Toast.Root width={{ md: 'sm' }}>
+          <Toast.Root
+            width={{ md: 'sm' }}
+            sx={{
+              background: "linear-gradient(145deg, #0f0f13, #13131a)",
+              border: "1px solid rgba(255,255,255,0.08)",
+              borderRadius: "xl",
+              boxShadow: "0 8px 32px rgba(0,0,0,0.5)",
+              color: "rgba(255,255,255,0.88)",
+            }}
+          >
             {toast.type === 'loading' ? (
               <Spinner size='sm' color='blue.solid' />
             ) : (

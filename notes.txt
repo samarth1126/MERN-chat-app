@@ -12,3 +12,6 @@
 | **NextUI / HeroUI**   | Modern, beautiful        | Easy           | Growing           | Startups, portfolios  |
 
 
+
+
+any problem here? if there are chakra v2 tags then change them to respective chakra v3 tags and follow the dark-themed-modern-chat-apps design for this as well
